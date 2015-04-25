@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>WSO2 Business Activity Monitor - 
+            Release Notes
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1"><link href="css/bam-docs.css" rel="stylesheet"><link href="styles/dist-docs.css" rel="stylesheet" type="text/css" media="all"></head><div id="header"></div><div id="main-content"><h1>WSO2 Business Activity Monitor 2.5.0 Released!</h1><strong>Date :  15th of December 2014 </strong><p>
+                WSO2 Business Activity Monitor devlopment team is pleased to announce the release of 
+            <a href="http://wso2.org/projects/bam" class="externalLink">WSO2 Business Activity Monitor 2.5.0</a></p>
+<p>
+  WSO2 Business Activity Monitor (WSO2 BAM) is a comprehensive framework designed to solve the problems in the wide area of business activity monitoring. WSO2 BAM comprises of many modules to give the best of performance, scalability and customizability. This allows to achieve requirements of business users, dev ops, CEOs without spending countless months on customizing the solution without sacrificing performance or the ability to scale. 
+            </p>
+<p>
+                WSO2 BAM is powered by <a href="http://wso2.org/projects/carbon" class="externalLink">WSO2 Carbon</a>, the SOA middleware component platform.
+            </p>
+<h3>License</h3><p>
+                WSO2 BAM is an open source software product and is release under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" class="externalLink">Apache
+                    Software License v2.0</a>. 
+            </p>
+<h3>Downloads</h3><p>
+                You can download WSO2 BAM release artifacts from <a href="http://wso2.org/downloads/bam" class="externalLink">http://wso2.org/downloads/bam</a>.
+            </p>
+<h2>How to Run?</h2><ol type="1">             <li>
+                    Download the binary distribution zip file
+                </li>
+                <li>
+                    Extract the downloaded zip file
+                </li>
+                <li>
+                    Go to the bin directory in the extracted folder
+                </li>
+                <li>
+                    On Linux/Unix, run wso2server.sh script. On Microsoft Windows, run wso2server.bat file.
+                </li>
+                <li>
+                    Point your browser to the URL https://localhost:9443/carbon
+                </li>
+                <li>
+                    Use username <strong><i>admin</i></strong>, and password <strong><i>admin</i></strong>
+                    to login as the administrator.
+                    <br/>
+                    NOTE: It is strongly recommended that you change your administrator password from the <strong><i>admin</i></strong>
+                    to 
+                    a more secure one at this point. To do this click on 'Configure->User Managment' link on the left menu. 
+                </li>
+        
+</ol>
+<h2>Issues Fixed in This Release</h2>
+<ul>
+<li><a href="https://wso2.org/jira/issues/?filter=12097" class="externalLink">WSO2 BAM 2.5.0 Fixed Issues</a></li>
+</ul>
+        
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1192'>BAM-1192</a>] -         the toolbox search does not seem to generate results for partial toobox name
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1225'>BAM-1225</a>] -         Need to update some tool boxes to refer the WSO2BAM_DATASOURCE
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1639'>BAM-1639</a>] -         [Toolbox] Remove username/password from the toolbox in streamdefn.properties
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1650'>BAM-1650</a>] -         Enhance Message Tracer agent to capture request url in a REST API invoke and  transport headers
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1663'>BAM-1663</a>] -         BAM  Receiver performance issue - accessinig the registry for every event bundle
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1673'>BAM-1673</a>] -         Read credentials for WSO2BAM_UTIL_DATASOURCE from hive-site.xml
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1719'>BAM-1719</a>] -         Add default timestamp based search support in Activity Monistoring Dashboard(Simple Search)
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1736'>BAM-1736</a>] -         Removing reduntant configuration from streamDefn.xml and read all cassandra related configs from datasources
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1752'>BAM-1752</a>] -         Cassandra Data deletion support for the Archival Feature
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1757'>BAM-1757</a>] -         Improve BAM to work with all Input adators provided by CEP
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1760'>BAM-1760</a>] -         Support index deletion
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1761'>BAM-1761</a>] -         Supporting to schedhule cassandra data deletion through toolboxes
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1764'>BAM-1764</a>] -         Add comment support to Hive script editor
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1777'>BAM-1777</a>] -         Cassandra Data Source Type for BAM Configurations
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1783'>BAM-1783</a>] -         Add a configuration to specify the async data publisher consistancy
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1789'>BAM-1789</a>] -         Set the hostName parameter to 0.0.0.0 in data-bridge-config.xml file by default
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1835'>BAM-1835</a>] -         even though we purge data there is no way to generate a report or identify who performed the deletion
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1842'>BAM-1842</a>] -         [Improvement] better if the archived / purge function validate and prevent excluded streams being achieved or purged 
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1871'>BAM-1871</a>] -         Add Info logs to show the execution time of each Hive script
+</li>
+</ul>
+        
+<h2>        New Feature
+</h2>
+<ul>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1770'>BAM-1770</a>] -         Add MQTT Input Event Adaptor to BAM
+</li>
+</ul>
+    
+<h2>        Patch
+</h2>
+<ul>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1662'>BAM-1662</a>] -         Gadget portal throwing StackOverflowError after session timeout
+</li>
+</ul>
+            
+<h2>        Task
+</h2>
+<ul>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1675'>BAM-1675</a>] -         Duplicate cassandra jar is packed with BAM 2.4.2 
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1847'>BAM-1847</a>] -         Upgrade Puppet v2 based deloyment scripts to Puppet v3
+</li>
+<li>[<a href='https://wso2.org/jira/browse/BAM-1921'>BAM-1921</a>] -         License File
+</li>
+</ul>
+                        
+
+<h2>Known Issues</h2>
+<ul>
+<li><a href="https://wso2.org/jira/issues/?filter=12098" class="externalLink">WSO2 BAM 2.5.0 Known Issues</a></li>
+</ul>
+
+<h2>Engaging with Community</h2><h3>Mailing Lists</h3><p>
+                Join our mailing list and correspond with the developers directly.
+            </p>
+<ul> <li>
+                    Developer List : <a href="mailto:dev@wso2.org">dev@wso2.org</a>
+                    | <a href="mailto:dev-request@wso2.org?subject=subscribe">Subscribe</a>
+                    | <a href="http://wso2.org/mailarchive/dev/">Mail Archive</a>
+                </li>
+</ul>
+<h3>Reporting Issues</h3><p>
+                WSO2 encourages you to report issues, enhancements and feature requests for WSO2 BAM. 
+                Use the <a href="http://wso2.org/jira/browse/bam" class="externalLink">issue tracker</a>
+                for reporting issues.
+            </p>
+<h3>Discussion Forums</h3><p>  We encourage to use <a href="http://stackoverflow.com/tags/wso2/" class="externalLink">stackoverflow</a> to engage with developers as well as other users. 
+            </p>
+<h2>Training</h2><p>
+WSO2 Inc. offers a variety of professional Training Programs, including
+training on general Web services as well as WSO2 Business Activity Monitor and number of 
+other products.
+
+For additional support information please refer to
+<a href="http://wso2.com/training/"></a>
+
+
+            </p>
+<p>
+
+<h2>Support</h2><p>
+We are committed to ensuring that your enterprise middleware deployment is completely supported
+from evaluation to production. Our unique approach ensures that all support leverages our open
+development methodology and is provided by the very same engineers who build the technology.
+
+
+            </p>
+<p>
+                For additional support information please refer to<a href="http://wso2.com/support/" class="externalLink">http://wso2.com/support/</a></p>
+<p>
+                For more information on WSO2 BAM, and other products from WSO2, visit 
+                <a href="http://wso2.org" class="externalLink">WSO2 Oxygen Tank - The Developer Portal for SOA</a></p>
+<hr />
+<p>
+                We welcome your feedback and would love to hear your thoughts on this release of WSO2 BAM. 
+            </p>
+<p><span style="font-family:cursive; font-size:130%">WSO2 BAM Development Team</span></p>
+</div>
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2014
+    
+          WSO2 Inc
+          
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

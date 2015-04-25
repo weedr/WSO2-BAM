@@ -1,0 +1,6 @@
+<StreamDefinition>
+    <NodeId>1</NodeId>
+    <EventDatasourceName>WSO2BAM_CASSANDRA_DATASOURCE</EventDatasourceName>
+    <EventIndexDatasourceName>WSO2BAM_CASSANDRA_EVENT_INDEX_SOURCE</EventIndexDatasourceName>
+    <gcGraceInterval>864000</gcGraceInterval>
+</StreamDefinition>

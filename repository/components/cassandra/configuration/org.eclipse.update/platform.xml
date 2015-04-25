@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1418645715199">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.wso2.carbon.registry.resource.properties.ui" url="features/org.wso2.carbon.registry.resource.properties.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.common" url="features/org.wso2.carbon.core.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datapublisher" url="features/org.wso2.carbon.databridge.datapublisher_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer.git" url="features/org.wso2.carbon.deployment.synchronizer.git_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.server" url="features/org.wso2.carbon.event.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.mgt.ui" url="features/org.wso2.carbon.cassandra.mgt.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt" url="features/org.wso2.carbon.user.mgt_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.server" url="features/org.wso2.carbon.security.mgt.server_4.2.5/" version="4.2.5">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.common" url="features/org.wso2.carbon.cassandra.common_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.core" url="features/org.wso2.carbon.core_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.ui.menu" url="features/org.wso2.carbon.registry.ui.menu_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core" url="features/org.wso2.carbon.registry.core_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.common" url="features/org.wso2.carbon.registry.core.common_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.core.runtime" url="features/org.wso2.carbon.core.runtime_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.ui" url="features/org.wso2.carbon.security.mgt.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer" url="features/org.wso2.carbon.deployment.synchronizer_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.server" url="features/org.wso2.carbon.registry.resource.properties.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.server" url="features/org.wso2.carbon.databridge.commons.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt.server" url="features/org.wso2.carbon.webapp.mgt.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.bam.styles" url="features/org.wso2.bam.styles_2.5.0/" version="2.5.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties" url="features/org.wso2.carbon.registry.resource.properties_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.server" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra" url="features/org.wso2.carbon.cassandra_4.2.5/" version="4.2.5">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer.server" url="features/org.wso2.carbon.cassandra.explorer.server_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.dataaccess" url="features/org.wso2.carbon.cassandra.dataaccess_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.logging.mgt.server" url="features/org.wso2.carbon.logging.mgt.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer.ui" url="features/org.wso2.carbon.cassandra.explorer.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.agent.thrift.server" url="features/org.wso2.carbon.databridge.agent.thrift.server_4.2.4/" version="4.2.4">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.server" url="features/org.wso2.carbon.cassandra.server_4.2.5/" version="4.2.5">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.server" url="features/org.wso2.carbon.user.mgt.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer" url="features/org.wso2.carbon.cassandra.explorer_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.core.ui" url="features/org.wso2.carbon.core.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.ui" url="features/org.wso2.carbon.user.mgt.ui_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.ui" url="features/org.wso2.carbon.registry.core.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.core.server" url="features/org.wso2.carbon.core.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common.server" url="features/org.wso2.carbon.stratos.common.server_2.3.0/" version="2.3.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.cassandra.hector.datareader.server" url="features/org.wso2.carbon.bam.cassandra.hector.datareader.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.mgt" url="features/org.wso2.carbon.cassandra.mgt_4.2.3/" version="4.2.3">
+		</feature>
+		<feature id="org.wso2.carbon.event.common" url="features/org.wso2.carbon.event.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer.server" url="features/org.wso2.carbon.deployment.synchronizer.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.server" url="features/org.wso2.carbon.registry.core.server_4.2.2/" version="4.2.2">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.thrift.server" url="features/org.wso2.carbon.databridge.commons.thrift.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.search.ui" url="features/org.wso2.carbon.registry.search.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.deployment.synchronizer.subversion" url="features/org.wso2.carbon.deployment.synchronizer.subversion_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt" url="features/org.wso2.carbon.security.mgt_4.2.5/" version="4.2.5">
+		</feature>
+	</site>
+</config>
